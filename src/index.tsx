@@ -23,7 +23,7 @@ const ConpayButton: React.FC<ConpayPopupProps> = ({productAddress:address,proper
       const left = window.screen.width / 2 - width / 2;
       const top = window.screen.height / 2 - height / 2;
       const features = `width=${width},height=${height},left=${left},top=${top},resizable=yes,scrollbars=yes,status=yes`;
-      const newPopupWindow = window.open(`/popup/${address}/${properties}/login`, 'ConpayPopup', features);
+      const newPopupWindow = window.open(`https://conpay-business.vercel.app/popup/${address}/${properties}/login`, 'ConpayPopup', features);
       setPopupWindow(newPopupWindow || null);
     }
   };

@@ -1,7 +1,6 @@
 {
   "name": "conpay-button",
   "version": "0.1.0",
-  "private": true,
   "exports": {
     ".": {
       "import": {
